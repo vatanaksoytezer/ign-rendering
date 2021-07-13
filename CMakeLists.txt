@@ -20,7 +20,7 @@ ign_configure_project(VERSION_SUFFIX pre1)
 #============================================================================
 # Set project-specific options
 #============================================================================
-
+set(OpenGL_GL_PREFERENCE GLVND)
 # ignition-rendering currently has no options that are unique to it
 
 #============================================================================
